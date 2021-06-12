@@ -1,0 +1,304 @@
+body {
+  background-color: #040404;
+  margin: 0;
+  padding: 0;
+  color: #F0F0F0;
+}
+body .navbar {
+  position: relative;
+  padding: 10px 15px;
+}
+body .navbar span.circle, body .navbar span img {
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  background-color: #050024;
+  display: inline-block;
+  border-radius: 50%;
+  z-index: 1;
+}
+body .navbar span.circle img, body .navbar span img img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  opacity: 0.9;
+}
+body .navbar span.logo {
+  top: 20px;
+  left: 60px;
+  position: absolute;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  display: inline-block;
+  line-height: 1.6rem;
+  z-index: 2;
+  font-weight: 100;
+}
+body section {
+  padding: 50px 70px;
+}
+body section .bg {
+  opacity: 0.3;
+}
+body .hero {
+  position: relative;
+  display: grid;
+  padding: 0;
+  overflow: hidden;
+}
+body .hero .bg {
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+}
+body .hero .bg img {
+  height: 100vh;
+  width: 100%;
+}
+body .hero .herohero {
+  z-index: 2;
+  position: relative;
+  text-align: center;
+}
+body .hero .herohero h1 {
+  margin-top: 20vh;
+  font-size: 7rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+}
+body .hero .herohero h3 {
+  margin-top: 0;
+  font-size: 6rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+body .hero .herohero h3 span {
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+}
+body .hero .herohero h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  width: 50%;
+  margin: auto;
+}
+body .hero .herohero p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  margin-top: 6%;
+}
+body .hero .herohero p.arrows {
+  position: absolute;
+  bottom: -17px;
+  right: 49%;
+}
+body section#desc {
+  background-color: #111111;
+  color: #F0F0F0;
+  text-align: center;
+}
+body section#desc p.desc {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+body section#desc div.outer {
+  display: flex;
+  position: relative;
+  width: 60%;
+  margin: auto;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+body section#desc div.outer h3 {
+  float: left;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #E46A68;
+}
+body section#desc div.outer p {
+  display: block;
+  text-align: left;
+  margin-top: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+body section#desc div.outer img {
+  width: 200px;
+  height: 200px;
+  margin-top: 40px;
+  float: right;
+}
+body section#desc div.outer img.leftimg {
+  float: left;
+}
+body section#desc div.outer .left, body section#desc div.outer .right {
+  width: 50%;
+  position: relative;
+}
+body section#desc h2 {
+  margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #E46A68;
+  font-size: 2rem;
+}
+body section#desc p.languages {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+body section#desc ul {
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  list-style-type: none;
+}
+body section#desc ul li {
+  margin-bottom: 10px;
+}
+body section#my-works {
+  position: relative;
+  background-color: #111111;
+}
+body section#my-works h2 {
+  margin-bottom: 80px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #E46A68;
+  font-size: 2rem;
+  position: relative;
+}
+body section#my-works .out-work {
+  position: relative;
+  width: 65%;
+  height: 80vh;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+body section#my-works .out-work .snap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+body section#my-works .out-work .snap img {
+  width: 100%;
+  position: relative;
+  height: 40vh;
+  opacity: 0.8;
+}
+body section#my-works .out-work .snap .sub {
+  display: flex;
+}
+body section#my-works .out-work .snap .sub img {
+  width: 50%;
+  height: 30vh;
+  opacity: 0.8;
+}
+body section#my-works div.about {
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+}
+body section#my-works div.about div {
+  position: relative;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  min-height: 50%;
+  text-align: left;
+  margin-top: 18vh;
+  background-color: #00000080;
+  padding: 50px;
+}
+body section#my-works div.about div h3 {
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #E46A68;
+}
+body section#my-works div.about div p {
+  width: 80%;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+body section#my-works div.about div p span {
+  color: #E46A68;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+body section#my-works div.about div a {
+  color: #E46A68;
+  position: relative;
+  text-decoration: none;
+}
+body section#my-works div.about div a:hover {
+  color: #3F3F3F;
+}
+body section#contact {
+  background-color: #3F3F3F;
+  color: #F0F0F0;
+  position: relative;
+  padding-bottom: 20px;
+}
+body section#contact h2 {
+  font-size: 3rem;
+  color: #050024;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 70px;
+}
+body section#contact p {
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+body section#contact img {
+  height: 60px;
+  width: 60px;
+  margin-left: 47%;
+}
+body section#contact h5 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 5px;
+  font-size: 1.2rem;
+}
+body section#contact h3 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+body section#contact h3 a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #E46A68;
+}
+body section#contact h3 a:hover {
+  color: #050024;
+}
+body section#contact hr {
+  height: 1px;
+  border: none;
+  border-top: solid 1px;
+}
+body section#contact p.ftr {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
