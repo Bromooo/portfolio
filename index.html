@@ -9,8 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    
+<body onload="loadd();">
+
+    <div class="cover">
+        <p class="loading">loading . . .</p>
+    </div>
     <section id="hero" class="hero">
         <div class="bg">
             <img src="assets/img/bg-img.jpg" alt="">
@@ -20,16 +23,16 @@
             <span class="circle"> <img src="assets/img/bromo.png" alt=""> </span>
         </div>
         <div class="herohero">
-            <h1>Hello!!!</h1>
+            <h1 class="anim1">Hello!!!</h1>
             
-            <h3>I'm <span>Bromo</span> </h3>
-            <h5>I build amazingly responsive websites with great user interface and xperience</h5>
+            <h3 class="anim1">I'm <span>Bromo</span> </h3>
+            <h5 class="anim1">I build amazingly responsive websites with great user interface and xperience</h5>
 
-            <p>Want to know more about what i do?
+            <p class="anim1">Want to know more about what i do?
                 <br>
                 scroll down
             </p>
-            <p class="arrows">
+            <p class=" anim1 arrows">
                 &#8615 
                 &#8615 
                 &#8615
@@ -38,27 +41,27 @@
         
     </section>
     <section id="desc">
-        <p class="desc">I like to code things from scratch and enjoy bringing ideas to life</p>
-        <h2>Languages I speak: </h2>
-        <p class="languages">HTML, CSS, Sass, Javascript</p>
+        <p class="anim2 desc">I like to code things from scratch and enjoy bringing ideas to life</p>
+        <h2 class="anim2">Languages I speak: </h2>
+        <!-- <p class="languages">HTML, CSS, Sass, Javascript</p> -->
 
         <div class="outer">
-            <div class="left">
+            <div class="left l1">
                 <h3>HTML</h3>
                 <br>
                 <p class="info">
                     HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. I use HTML to describe the structure of a Web page. HTML consists of a series of elements.
                 </p>
             </div>
-            <div class="right">
+            <div class="right r1">
                 <img src="assets/logos/html.svg" alt="">
             </div>
         </div>
         <div class="outer">
-            <div class="left">
+            <div class="left l2">
                 <img class="leftimg" src="assets/logos/css.svg" alt="">
             </div>
-            <div class="right">
+            <div class="right r2">
                 <h3>CSS</h3>
                 <br>
                 <p class="info">
@@ -69,7 +72,7 @@
             </div>
         </div>
         <div class="outer">
-            <div class="left">
+            <div class="left l3">
                 <h3>Sass</h3>
                 <br>
                 <p class="info">
@@ -81,15 +84,15 @@
                     I prefer using Sass to CSS.
                 </p>
             </div>
-            <div class="right">
+            <div class="right r3">
                 <img src="assets/logos/sass.svg" alt="">
             </div>
         </div>
         <div class="outer">
-            <div class="left">
+            <div class="left l4">
                 <img class="leftimg" src="assets/logos/js.svg" alt="">
             </div>
-            <div class="right">
+            <div class="right r4">
                 <h3>JavaScript</h3>
                 <br>
                 <p class="info">
@@ -114,7 +117,7 @@
     <section id="my-works">
         <h2>My Works:</h2>
         <div class="out-work">
-            <div class="snap">
+            <div class="snap s1">
                 <img src="assets/img/cred1.png" alt="">
                 <div class="sub">
                     <img src="assets/img/cred2.png" alt="">
@@ -122,7 +125,7 @@
                 </div>
             </div>
             <div class="about">
-                <div>
+                <div class="a1">
 
                     <h3 class="title">Credpal (Clone)</h3>
                     <p class="desc">Simply a clone of the Credpal website. <br>
@@ -138,7 +141,7 @@
         </div>
     
         <div class="out-work">
-            <div class="snap">
+            <div class="snap s2">
                 <img src="assets/img/gc1.png" alt="">
                 <div class="sub">
                     <img src="assets/img/gc2.png" alt="">
@@ -146,7 +149,7 @@
                 </div>
             </div>
             <div class="about">
-                <div>
+                <div class="a2">
 
                     <h3 class="title">G.C. Ohen and co</h3>
                     <p class="desc">
@@ -163,7 +166,7 @@
             </div>
         </div>
         <div class="out-work">
-            <div class="snap">
+            <div class="snap s3">
                 <img src="assets/img/bro.png" alt="" style="height: 100%;">
                 <!-- <div class="sub">
                     <img src="assets/img/sim2.png" alt="">
@@ -171,7 +174,7 @@
                 </div> -->
             </div>
             <div class="about">
-                <div>
+                <div class="a3">
 
                     <h3 class="title">Bromerto</h3>
                     <p class="desc">
@@ -190,7 +193,7 @@
             </div>
         </div>
         <div class="out-work">
-            <div class="snap">
+            <div class="snap s4">
                 <img src="assets/img/env1.png" alt="">
                 <div class="sub">
                     <img src="assets/img/env2.png" alt="">
@@ -198,7 +201,7 @@
                 </div>
             </div>
             <div class="about">
-                <div>
+                <div class="a4">
 
                     <h3 class="title">Enviar</h3>
                     <p class="desc">
@@ -216,7 +219,7 @@
             </div>
         </div>
         <div class="out-work">
-            <div class="snap">
+            <div class="snap s5">
                 <img src="assets/img/tin1.png" alt="">
                 <div class="sub">
                     <img src="assets/img/tin2.png" alt="">
@@ -224,7 +227,7 @@
                 </div>
             </div>
             <div class="about">
-                <div>
+                <div class="a5">
 
                     <h3 class="title">Tindog</h3>
                     <p class="desc">
@@ -241,7 +244,7 @@
         </div>
         
         <div class="out-work">
-            <div class="snap">
+            <div class="snap s6">
                 <img src="assets/img/sim1.png" alt="">
                 <div class="sub">
                     <img src="assets/img/sim2.png" alt="">
@@ -249,7 +252,7 @@
                 </div>
             </div>
             <div class="about">
-                <div>
+                <div class="a6">
 
                     <h3 class="title">Simon (Game)</h3>
                     <p class="desc">
@@ -267,7 +270,7 @@
             </div>
         </div>
         <div class="out-work">
-            <div class="snap">
+            <div class="snap s7">
                 <img src="assets/img/drk.png" alt="" style="height: 100%;">
                 <!-- <div class="sub">
                     <img src="assets/img/sim2.png" alt="">
@@ -275,7 +278,7 @@
                 </div> -->
             </div>
             <div class="about">
-                <div>
+                <div class="a7">
 
                     <h3 class="title">Drum kit</h3>
                     <p class="desc">
@@ -321,7 +324,11 @@
 
     </section>
 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/CSSRulePlugin.min.js"></script>  -->
     <script src="js/index.js"></script>
 </body>
 </html>

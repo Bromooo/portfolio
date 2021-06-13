@@ -1,8 +1,25 @@
 body {
+  overflow-x: hidden;
   background-color: #040404;
   margin: 0;
   padding: 0;
   color: #F0F0F0;
+}
+body div.cover {
+  background-color: #111111;
+  color: #F0F0F0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 700;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20%;
+  font-size: 3rem;
 }
 body .navbar {
   position: relative;
@@ -163,6 +180,7 @@ body section#desc ul {
 }
 body section#desc ul li {
   margin-bottom: 10px;
+  position: relative;
 }
 body section#my-works {
   position: relative;
