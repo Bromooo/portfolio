@@ -1,26 +1,27 @@
 var texts = ["Loading .", "Loading . .","Loading . . ." ];
 var nout = 0;
-
+var cover= document.querySelector(".cover");
 
  
  
 setInterval(function() { 
-   
   $('.loading').text(texts[nout]); 
  
   nout++; 
   if (nout == texts.length) { 
     nout = 0; 
   }
-  }, 200);
+  }, 800);
 
 
 
 function loadd(){
+    //cover.css.display = "hidden";
     gsap.to('.cover',{
         delay: 0.8,
         opacity: 0,
         duration: 0.5,
+        display: "none",
         // width: '5px',
         // height: '5px',
         // borderRadius: '90%',

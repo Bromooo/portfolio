@@ -29,7 +29,6 @@ body .navbar span.circle, body .navbar span img {
   position: absolute;
   height: 75px;
   width: 75px;
-  background-color: #050024;
   display: inline-block;
   border-radius: 50%;
   z-index: 1;
@@ -44,6 +43,7 @@ body .navbar span.logo {
   left: 60px;
   position: absolute;
   font-family: "Lato", sans-serif;
+  letter-spacing: 0.8rem;
   font-size: 1rem;
   display: inline-block;
   line-height: 1.6rem;
@@ -121,6 +121,7 @@ body section#desc {
   background-color: #111111;
   color: #F0F0F0;
   text-align: center;
+  overflow: hidden;
 }
 body section#desc p.desc {
   text-align: center;
@@ -183,6 +184,7 @@ body section#desc ul li {
   position: relative;
 }
 body section#my-works {
+  overflow: hidden;
   position: relative;
   background-color: #111111;
 }
@@ -235,7 +237,7 @@ body section#my-works div.about div {
   min-height: 50%;
   text-align: left;
   margin-top: 18vh;
-  background-color: #00000080;
+  background-color: #000000E6;
   padding: 50px;
 }
 body section#my-works div.about div h3 {
@@ -317,6 +319,82 @@ body section#contact hr {
 body section#contact p.ftr {
   margin-top: 10px;
   margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  body section#desc div.outer {
+    width: 80%;
+  }
+  body section#my-works div.out-work {
+    width: 90%;
+  }
+  body section#my-works div.out-work .title {
+    font-size: 3rem;
+  }
+  body section#my-works div.out-work .desc, body section#my-works div.out-work a {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  body section#desc div.outer {
+    width: 85%;
+  }
+  body section#my-works div.out-work {
+    width: 100%;
+  }
+  body section#my-works div.out-work .title {
+    font-size: 2rem;
+  }
+  body section#my-works div.out-work .desc, body section#my-works div.out-work a {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 375px) {
+  body .hero .herohero h1 {
+    font-size: 4rem;
+  }
+  body .hero .herohero h3 {
+    font-size: 3rem;
+  }
+  body .hero .herohero h5 {
+    font-size: 1rem;
+    width: 85%;
+  }
+  body .hero .herohero p {
+    font-size: 0.9rem;
+  }
+  body section#desc div.outer {
+    width: 95%;
+    flex-direction: column;
+  }
+  body section#desc div.outer .right, body section#desc div.outer .left {
+    width: 100%;
+  }
+  body section#my-works {
+    padding: 30px;
+  }
+  body section#my-works div.out-work {
+    width: 100%;
+    margin-bottom: 0;
+    height: 50vh;
+  }
+  body section#my-works div.out-work .snap img {
+    height: 20vh;
+  }
+  body section#my-works div.out-work .snap .sub img {
+    height: 20vh;
+  }
+  body section#my-works div.out-work .title {
+    font-size: 1.4rem;
+  }
+  body section#my-works div.out-work .desc, body section#my-works div.out-work a {
+    font-size: 0.8rem;
+  }
+  body section#my-works div.out-work div.about div {
+    padding: 15px;
+    width: 65%;
+    margin-top: 10vh;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
