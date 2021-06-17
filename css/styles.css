@@ -363,6 +363,9 @@ body section#contact p.ftr {
   body .hero .herohero p {
     font-size: 0.9rem;
   }
+  body section#desc {
+    padding: 50px 30px;
+  }
   body section#desc div.outer {
     width: 95%;
     flex-direction: column;
@@ -370,13 +373,17 @@ body section#contact p.ftr {
   body section#desc div.outer .right, body section#desc div.outer .left {
     width: 100%;
   }
+  body section#desc div.outer .right img, body section#desc div.outer .left img {
+    float: none;
+    margin: auto;
+  }
   body section#my-works {
     padding: 30px;
   }
   body section#my-works div.out-work {
     width: 100%;
     margin-bottom: 0;
-    height: 50vh;
+    height: 65vh;
   }
   body section#my-works div.out-work .snap img {
     height: 20vh;

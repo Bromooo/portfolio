@@ -444,11 +444,16 @@ body{
             }
         }
         section#desc {
+            padding: 50px 30px;
             div.outer{
                 width: 95%;
                 flex-direction: column;
                 .right, .left{
                     width: 100%;
+                    img{
+                        float: none;
+                        margin: auto;
+                    }
                 }
             }
         }
@@ -459,7 +464,7 @@ body{
                 div.out-work{
                     width: 100%;
                     margin-bottom: 0;
-                    height: 50vh;
+                    height: 65vh;
                     .snap{
                         
                         img{
