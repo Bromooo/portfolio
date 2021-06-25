@@ -1,6 +1,9 @@
 var texts = ["Loading .", "Loading . .","Loading . . ." ];
 var nout = 0;
 var cover= document.querySelector(".cover");
+var year = new Date().getFullYear();
+
+$('#cryr').text(year);
 
  
  
