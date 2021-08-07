@@ -404,4 +404,48 @@ function loadd(){
         opacity: 0,
         x: 200
     });
+        gsap.from('.s8',{
+        scrollTrigger: {
+            
+            trigger: '.s8',
+            scrub: 1,
+            end: "center center",
+            toggleActions: "restart pause play none"
+        },
+        opacity: 0,
+        x: 200
+    });
+    gsap.from('.a8',{
+        scrollTrigger: {
+            
+            trigger: '.a8',
+            scrub: 1,
+            end: "center center",
+            toggleActions: "restart pause play none"
+        },
+        opacity: 0,
+        x: -200
+    });
+        gsap.from('.s9',{
+        scrollTrigger: {
+            
+            trigger: '.s9',
+            scrub: 1,
+            end: "center center",
+            toggleActions: "restart pause play none"
+        },
+        opacity: 0,
+        x: -200
+    });
+    gsap.from('.a9',{
+        scrollTrigger: {
+            
+            trigger: '.a9',
+            scrub: 1,
+            end: "center center",
+            toggleActions: "restart pause play none"
+        },
+        opacity: 0,
+        x: 200
+    });
 }
