@@ -67,6 +67,7 @@ body .hero .bg {
   display: flex;
   justify-content: space-around;
   position: absolute;
+  width: 100%;
 }
 body .hero .bg img {
   height: 100vh;
