@@ -34,7 +34,8 @@ body .navbar span.circle, body .navbar span img {
   z-index: 1;
 }
 body .navbar span.circle img, body .navbar span img img {
- 
+ -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
   opacity: 0.9;
 }
 body .navbar span.logo {
