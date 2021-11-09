@@ -1,3 +1,4 @@
+/*# sourceMappingURL=styles.css.map */
 body {
   overflow-x: hidden;
   background-color: #040404;
@@ -25,7 +26,7 @@ body .navbar {
   position: relative;
   padding: 10px 15px;
 }
-body .navbar span.circle, body .navbar span img {
+body .navbar span.circle {
   position: absolute;
   height: 75px;
   width: 75px;
@@ -33,8 +34,21 @@ body .navbar span.circle, body .navbar span img {
   border-radius: 50%;
   z-index: 1;
 }
-body .navbar span.circle img, body .navbar span img img {
- -webkit-filter: grayscale(100%); 
+body .navbar span.circle img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.9;
+}
+body .navbar span img {
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  display: inline-block;
+  border-radius: 50%;
+  z-index: 1;
+}
+body .navbar span img img {
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: 0.9;
 }
@@ -160,7 +174,11 @@ body section#desc div.outer img {
 body section#desc div.outer img.leftimg {
   float: left;
 }
-body section#desc div.outer .left, body section#desc div.outer .right {
+body section#desc div.outer .left {
+  width: 50%;
+  position: relative;
+}
+body section#desc div.outer .right {
   width: 50%;
   position: relative;
 }
@@ -179,6 +197,7 @@ body section#desc ul {
   font-family: "Poppins", sans-serif;
   margin: auto;
   list-style-type: none;
+  padding-left: 0;
 }
 body section#desc ul li {
   margin-bottom: 10px;
@@ -332,7 +351,10 @@ body section#contact p.ftr {
   body section#my-works div.out-work .title {
     font-size: 3rem;
   }
-  body section#my-works div.out-work .desc, body section#my-works div.out-work a {
+  body section#my-works div.out-work .desc {
+    font-size: 1.5rem;
+  }
+  body section#my-works div.out-work a {
     font-size: 1.5rem;
   }
 }
@@ -346,7 +368,10 @@ body section#contact p.ftr {
   body section#my-works div.out-work .title {
     font-size: 2rem;
   }
-  body section#my-works div.out-work .desc, body section#my-works div.out-work a {
+  body section#my-works div.out-work .desc {
+    font-size: 1.2rem;
+  }
+  body section#my-works div.out-work a {
     font-size: 1.2rem;
   }
 }
@@ -371,10 +396,17 @@ body section#contact p.ftr {
     width: 95%;
     flex-direction: column;
   }
-  body section#desc div.outer .right, body section#desc div.outer .left {
+  body section#desc div.outer .right {
     width: 100%;
   }
-  body section#desc div.outer .right img, body section#desc div.outer .left img {
+  body section#desc div.outer .right img {
+    float: none;
+    margin: auto;
+  }
+  body section#desc div.outer .left {
+    width: 100%;
+  }
+  body section#desc div.outer .left img {
     float: none;
     margin: auto;
   }
@@ -395,7 +427,10 @@ body section#contact p.ftr {
   body section#my-works div.out-work .title {
     font-size: 1.4rem;
   }
-  body section#my-works div.out-work .desc, body section#my-works div.out-work a {
+  body section#my-works div.out-work .desc {
+    font-size: 0.8rem;
+  }
+  body section#my-works div.out-work a {
     font-size: 0.8rem;
   }
   body section#my-works div.out-work div.about div {
