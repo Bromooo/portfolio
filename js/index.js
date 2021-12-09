@@ -238,7 +238,7 @@ function loadd(){
         
         scrollTrigger: {
             
-            trigger: 'li bottom',
+            trigger: 'li',
             scrub: 1,
             end: "bottom center",
             toggleActions: "restart pause play none"
