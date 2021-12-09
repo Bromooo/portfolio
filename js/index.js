@@ -238,14 +238,14 @@ function loadd(){
         
         scrollTrigger: {
             
-            trigger: 'li',
+            trigger: 'li bottom',
             scrub: 1,
             end: "bottom center",
             toggleActions: "restart pause play none"
         },
         opacity: 0,
         duration: 1.2,
-        y: -50,
+        y: 50,
         stagger: 0.7
 
     })
